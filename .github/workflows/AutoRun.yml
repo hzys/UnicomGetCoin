@@ -11,7 +11,7 @@ on:
     - cron: 15 23 * * *
 
 jobs:
-  build:
+  签到:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
