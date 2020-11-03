@@ -11,8 +11,9 @@ on:
     - cron: 15 23 * * *
 
 jobs:
-  签到:
+  run-it:
     runs-on: ubuntu-latest
+    name:签到
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
       - name: Checkout
