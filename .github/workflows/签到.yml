@@ -6,9 +6,9 @@ on:
       - master
   watch:
     types: started
-  schedule:
+  #schedule:
     #格林尼治时间23：11，东八区北京时间7：15
-    - cron: 15 23 * * *
+    #- cron: 15 23 * * *
 
 jobs:
   run-it:
